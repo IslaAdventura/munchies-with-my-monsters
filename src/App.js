@@ -2,6 +2,7 @@ import "./App.css";
 import FoodReimbursement from "./FoodReimbursement";
 import FormattedDate from "./FormattedDate";
 import FormattedTime from "./FormattedTime";
+import Weather from "./Weather";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -12,6 +13,7 @@ function App() {
         <header className="App-header">
           <FormattedDate />
           <FormattedTime />
+          <Weather />
           <FoodReimbursement />
           <p>HAPPY HAUNTING</p>
           <a
