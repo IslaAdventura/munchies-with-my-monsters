@@ -1,16 +1,13 @@
 import React from "react";
 import "./FoodReimbursement.css";
-import FormattedDate from "./FormattedDate";
-import FormattedTime from "./FormattedTime";
 
 export default function FoodReimbursement() {
   return (
     <div className="FoodReimbursement">
-      <h2>
-        <FormattedDate />
-        <FormattedTime />
-      </h2>
-      whatcha eating?
+      <ul>
+        <li>Food Name</li>
+        <li>Total $$$</li>
+      </ul>
     </div>
   );
 }

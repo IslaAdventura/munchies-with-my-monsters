@@ -1,0 +1,13 @@
+.Weather .WeatherEmoji {
+  font-size: 50px;
+}
+
+.Weather .Temperature {
+  font-size: 20px;
+  color: yellow;
+}
+
+.Weather .WeatherCondition {
+  font-size: 20px;
+  color: rgb(249, 178, 12);
+}
