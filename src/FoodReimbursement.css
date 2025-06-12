@@ -1,38 +1,4 @@
 .FoodReimbursement {
   font-size: 30px;
-  color: red;
+  color: aquamarine;
 }
-
-/*
-.Weather .button {
-    background: linear-gradient(
-      45deg,
-      #999 5%,
-      #fff 10%,
-      #ccc 30%,
-      #ddd 50%,
-      #ccc 70%,
-      #fff 80%,
-      #999 95%
-    );
-    border-radius: 10px;
-    color: #000;
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 0;
-    margin-left: 10px;
-    padding: 6px 15px;
-    text-shadow: 1px 1px 2px var(--secondary-color);
-    text-decoration: none;
-    transition: all 0.1s ease-in-out;
-  }
-  
-  .Weather .button:hover {
-    box-shadow: 0 4px 8px #bbceb2;
-    color: black;
-    cursor: pointer;
-    font-weight: 600;
-    text-decoration: none;
-    text-shadow: 0.05em 0.05em 0.05em #bbceb2;
-  }*/
