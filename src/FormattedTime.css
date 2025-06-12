@@ -1,4 +1,5 @@
 .FormattedTime {
   color: aqua;
+  font-family: var(--font-family-playfair-display);
   font-size: 30px;
 }
