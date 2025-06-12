@@ -1,7 +1,7 @@
 .FoodReimbursement {
   font-family: var(--font-family-nosifer);
   font-size: 30px;
-  color: aquamarine;
+  color: var(--tertiary-color);
 }
 
 .FoodReimbursement ul {

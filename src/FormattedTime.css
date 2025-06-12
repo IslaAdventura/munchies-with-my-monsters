@@ -1,5 +1,7 @@
 .FormattedTime {
-  color: aqua;
-  font-family: var(--font-family-playfair-display);
-  font-size: 30px;
+  color: var(--secondary-color);
+  display: flex;
+  font-family: var(--font-family-nosifer);
+  font-size: 40px;
+  justify-content: right;
 }

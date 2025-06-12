@@ -1,29 +1,28 @@
 :root {
-  --branding-color: rgb(25, 3, 151);
-  --secondary-color: #0fff50;
+  --branding-color: rgb(253, 3, 3);
+  --secondary-color: #f15c48;
   --tertiary-color: white;
+  --blue-color: #3325be;
   --font-family-nosifer: "Nosifer", sans-serif;
-  --font-family-grenze-gotisch: "Grenze Gotisch", serif;
   --font-family-playfair-display: "Playfair Display", serif;
+  --text-shadow: 5px 5px 10px var(--tertiary-color), 5px 5px 20px #3325be;
 }
 
 .App {
-  background-color: rgb(29, 29, 29);
+  background-color: black;
   color: var(--tertiary-color);
   padding: 15px 15px;
   text-align: center;
 }
 
 .App h2 {
-  color: var(--branding-color);
+  color: var(--secondary-color);
   font-family: var(--font-family-nosifer);
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 3),
-    5px 5px 20px var(--secondary-color);
+  text-shadow: var(--text-shadow);
 }
 
 .App h3 {
-  color: var(--branding-color);
+  color: var(--secondary-color);
   font-family: var(--font-family-nosifer);
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 3),
-    5px 5px 20px var(--secondary-color);
+  text-shadow: var(--text-shadow);
 }

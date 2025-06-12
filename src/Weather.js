@@ -6,12 +6,12 @@ export default function Weather() {
   return (
     <div className="Weather">
       <div className="row">
-        <div className="col-6">
+        <div className="Column1">
           <span className="WeatherEmoji">🌩️</span>{" "}
           <span className="Temperature">80℉</span>{" "}
-          <span className="WeatherCondition">Dark and Stormy</span>
+          <div className="WeatherCondition">Dark and Stormy</div>
         </div>
-        <div className="col-6">
+        <div className="Column2">
           <FormattedDate />
           <FormattedTime />
         </div>

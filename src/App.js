@@ -10,10 +10,15 @@ function App() {
       <div className="container">
         <header className="App-header">
           <h2>Ghouls Trip Creepy Assistant</h2>
-          <p>🖤✨🦇🦇🦇🦇🦇🦇🦇🦇🦇🦇🦇✨🖤</p>
           <h3>At Your Service</h3>
-          <Weather />
-          <FoodReimbursement />
+          <div className="row">
+            <div className="col-8 d-flex align-content-start flex-wrap">
+              <FoodReimbursement />
+            </div>
+            <div className="col-4 d-flex align-content-end flex-wrap">
+              <Weather />
+            </div>
+          </div>
         </header>
       </div>
     </div>
